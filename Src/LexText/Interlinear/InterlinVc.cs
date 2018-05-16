@@ -17,7 +17,7 @@ using SIL.FieldWorks.Common.RootSites;
 using SIL.FieldWorks.FdoUi;
 using SIL.LCModel;
 using SIL.LCModel.DomainServices;
-using SIL.LCModel.Infrastructure;
+using SIL.LCModel.Infrastructure; 
 
 namespace SIL.FieldWorks.IText
 {
@@ -714,6 +714,7 @@ namespace SIL.FieldWorks.IText
 				vwenv.AddObjProp(MoFormTags.kflidMorphType, this, kfragPossibiltyAnalysisName);
 				break;
 			case kfragPossibiltyAnalysisName:
+				
 				vwenv.AddStringAltMember(CmPossibilityTags.kflidName, m_cache.DefaultAnalWs, this);
 				break;
 
